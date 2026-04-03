@@ -1,0 +1,15 @@
+{
+  "name": "work-hub",
+  "private": true,
+  "workspaces": [
+    "app/*"
+  ],
+  "scripts": {
+    "dev:back": "npm run dev -w @work-hub/back",
+    "build:back": "npm run build -w @work-hub/back",
+    "start:back": "npm run start -w @work-hub/back",
+    "dev:front": "npm run dev -w @work-hub/front",
+    "build:front": "npm run build -w @work-hub/front",
+    "preview:front": "npm run preview -w @work-hub/front"
+  }
+}
